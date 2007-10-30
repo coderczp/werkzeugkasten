@@ -14,7 +14,7 @@ http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.update/
    # Enter werkzeugkasten for the Name
    # Enter * http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.update/ *  for the URL
    # Click *OK* and then Click *Finish*
-   # Check the werkzeugkasten box and Click *Finish*
+   # Check the werkzeugkasten box and Click *Next*
    # Click the *I accept the terms in the license agreement button* (after being sure that you do) and click *Next*
    # Click *Finish*
    # After the download is complete, click *Install*
