@@ -25,7 +25,7 @@ http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.update/
    * Check the werkzeugkasten box and Click *Next* 
       http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/06_CheckAndNext.JPG
    * Click the *I accept the terms in the license agreement button* (after being sure that you do) and click *Next* 
-      http://werkzeugkasten.googlecode.com/svn/wiki/07_AcceptLicense.JPG
+      http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/07_AcceptLicense.JPG
 
    * Click *Finish* 
       http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/08_FinishToDownload.JPG
