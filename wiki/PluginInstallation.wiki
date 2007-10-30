@@ -15,7 +15,9 @@ http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.update/
    3. Click *New Remote Site...* 
       http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/03_NewRemoteSite.JPG
    4. Enter werkzeugkasten for the Name
+
    5. Enter * http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.update/ *  for the URL
+
    6. Click *OK* 
       http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/04_InputRemoteSite.JPG
    7. Click *Finish* 
@@ -24,12 +26,16 @@ http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.update/
       http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/06_CheckAndNext.JPG
    9. Click the *I accept the terms in the license agreement button* (after being sure that you do) and click *Next* 
       http://werkzeugkasten.googlecode.com/svn/wiki/07_AcceptLicense.JPG
+
    10. Click *Finish* 
       http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/08_FinishToDownload.JPG
+
    11. Wait for download 
       http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/09_DownloadFeatures.JPG
+
    12. After the download is complete, click *Install* 
       http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/10_InstallVerify.JPG
+
    13. When prompted, restart Eclipse by saying *Yes* 
       http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/11_RebootPrompt.JPG
  
