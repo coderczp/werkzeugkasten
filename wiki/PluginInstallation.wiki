@@ -1,0 +1,21 @@
+_How to install plugin in Eclipse._
+
+== Eclipse Update Site URL ==
+
+http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.update/
+
+
+
+== Step by Step to Install ==
+
+   # In Eclipse, choose from the *Help* Menu -> *Software Updates* -> *Find and Install* item.
+   # Choose *Search for new features to install* and click Next
+   # Click *New Remote Site...*
+   # Enter werkzeugkasten for the Name
+   # Enter * http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.update/ *  for the URL
+   # Click *OK* and then Click *Finish*
+   # Check the werkzeugkasten box and Click *Finish*
+   # Click the *I accept the terms in the license agreement button* (after being sure that you do) and click *Next*
+   # Click *Finish*
+   # After the download is complete, click *Install*
+   # When prompted, restart Eclipse by saying *Yes* 
