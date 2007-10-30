@@ -8,14 +8,17 @@ http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.update/
 
 == Step by Step to Install ==
 
-   # In Eclipse, choose from the *Help* Menu -> *Software Updates* -> *Find and Install* item.
-   # Choose *Search for new features to install* and click Next
-   # Click *New Remote Site...*
+   # In Eclipse, choose from the *Help* Menu -> *Software Updates* -> *Find and Install* item. http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/01_FindAndInstall.JPG
+   # Choose *Search for new features to install* and click Next http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/02_SearchNewFeatures.JPG
+   # Click *New Remote Site...* http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/03_NewRemoteSite.JPG
    # Enter werkzeugkasten for the Name
    # Enter * http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.update/ *  for the URL
-   # Click *OK* and then Click *Finish*
-   # Check the werkzeugkasten box and Click *Next*
-   # Click the *I accept the terms in the license agreement button* (after being sure that you do) and click *Next*
-   # Click *Finish*
-   # After the download is complete, click *Install*
-   # When prompted, restart Eclipse by saying *Yes* 
+   # Click *OK* http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/04_InputRemoteSite.JPG
+   # Click *Finish* http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/05_OKAndFinish.JPG
+   # Check the werkzeugkasten box and Click *Next* http://werkzeugkasten.googlecode.com/svn/wiki/PluginInstallation/06_CheckAndNext.JPG
+   # Click the *I accept the terms in the license agreement button* (after being sure that you do) and click *Next* http://werkzeugkasten.googlecode.com/svn/wiki/07_AcceptLicense.JPG
+   # Click *Finish* http://werkzeugkasten.googlecode.com/svn/wiki/08_FinishToDownload.JPG
+   # Wait for download http://werkzeugkasten.googlecode.com/svn/wiki/09_DownloadFeatures.JPG
+   # After the download is complete, click *Install* http://werkzeugkasten.googlecode.com/svn/wiki/10_InstallVerify.JPG
+   # When prompted, restart Eclipse by saying *Yes* http://werkzeugkasten.googlecode.com/svn/wiki/11_RebootPrompt.JPG
+ 
