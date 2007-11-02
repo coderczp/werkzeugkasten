@@ -4,7 +4,7 @@ _ Getting start DbLauncher _
 
 DbLauncher is Launching Plugin for H2.
 
-= Getting start =
+= Getting Started =
 
   * In the Package Explorer, Select project. 
   * Select Properties from the project's context menu. 
