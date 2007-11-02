@@ -1,4 +1,4 @@
-_ Getting start DbLauncher _
+_ Get start DbLauncher _
 
 = Introduction =
 
