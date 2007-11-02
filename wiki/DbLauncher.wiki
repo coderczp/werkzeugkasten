@@ -1,0 +1,30 @@
+_ Getting start DbLauncher _
+
+= Introduction =
+
+DbLauncher is Launching Plugin for H2.
+
+= Getting start =
+
+  * In the Package Explorer, Select project. 
+  * Select Properties from the project's context menu. 
+  * Select DbLauncher in the project properties page.
+    http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.docs/html/images/dblauncher/propertypage.png
+  * Check Use H2 Database 
+  * Click OK 
+  * You can start H2 Database by three way. 
+    * Select DbLauncher > Start H2 Db Server from the project's context menu.
+      http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.docs/html/images/dblauncher/start_contextmenu.png
+    * Select DbLauncher > Start H2 Db Server in the menu bar.
+      http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.docs/html/images/dblauncher/start_menubar.png
+    * Click the Start H2 Db Server button in the toolbar.
+      http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.docs/html/images/dblauncher/start_toolbar.png
+  * If Dblauncher start H2 Database successfully, project's icon and label is decorated.
+    http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.docs/html/images/dblauncher/running.png
+  * You can stop H2 Database by same way to start. 
+    * Select DbLauncher > Stop H2 Db Server from the project's context menu.
+      http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.docs/html/images/dblauncher/stop_contextmenu.png
+    * Select DbLauncher > Stop H2 Db Server in the menu bar.
+      http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.docs/html/images/dblauncher/stop_menubar.png
+    * Click the Stop H2 Db Server button in the toolbar.
+      http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.docs/html/images/dblauncher/stop_toolbar.png
