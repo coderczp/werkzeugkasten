@@ -10,7 +10,7 @@ WebLauncher is Launching Plugin for Web Container.
   * Select Properties from the project's context menu. 
   * Select WebLauncher in the project properties page.
     http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.docs/html/images/weblauncher/propertypage.png
-  * Check Use DbLauncher 
+  * Check Use WebLauncher 
   * Click OK 
   * You can start Web Server by three way. 
     * Select WebLauncher > Start Web Server from the project's context menu.
