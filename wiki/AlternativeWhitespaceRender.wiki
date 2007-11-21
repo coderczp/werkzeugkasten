@@ -1,4 +1,4 @@
-#Alternative Whitespace Render
+
 
 = Introduction =
 
