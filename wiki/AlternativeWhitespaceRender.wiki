@@ -1,0 +1,17 @@
+#Alternative Whitespace Render
+
+= Introduction =
+
+Alternative Whitespace Render is Text Editor enhancements.
+
+
+= Details =
+
+Eclipse3.3 has *General > Editors > Text Editors > Show whitespace charactors* check box on.
+
+http://werkzeugkasten.googlecode.com/svn/wiki/AlternativeWhitespaceRender/wsdefault.PNG
+
+
+Alternative Whitespace Render 
+
+http://werkzeugkasten.googlecode.com/svn/wiki/AlternativeWhitespaceRender/wsalt.PNG
