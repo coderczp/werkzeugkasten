@@ -14,4 +14,4 @@ http://werkzeugkasten.googlecode.com/svn/wiki/AlternativeWhitespaceRender/wsdefa
 
 Alternative Whitespace Render 
 
-http://werkzeugkasten.googlecode.com/svn/wiki/AlternativeWhitespaceRender/wsalt.PNG
+http://werkzeugkasten.googlecode.com/svn/wiki/AlternativeWhitespaceRender/wsalt.png
