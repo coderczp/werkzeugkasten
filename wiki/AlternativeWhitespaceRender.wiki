@@ -14,11 +14,16 @@ http://werkzeugkasten.googlecode.com/svn/wiki/AlternativeWhitespaceRender/wsdefa
 
 Alternative Whitespace Render 
 
-* Line Delimiters are *CRLF*(Windows).
+ * Line Delimiters are *CRLF*(Windows).
+
 http://werkzeugkasten.googlecode.com/svn/wiki/AlternativeWhitespaceRender/wsalt_crlf.png
 
-* Line Delimiters are *CR*(Mac).
+
+ * Line Delimiters are *CR*(Mac).
+
 http://werkzeugkasten.googlecode.com/svn/wiki/AlternativeWhitespaceRender/wsalt_cr.png
 
-* Line Delimiters are *LF*(Unix).
+
+ * Line Delimiters are *LF*(Unix).
+
 http://werkzeugkasten.googlecode.com/svn/wiki/AlternativeWhitespaceRender/wsalt_lf.png
