@@ -1,6 +1,4 @@
-#summary WebLauncher is Launching Plugin for Web Container.
-
-_ How to use WebLauncher _
+#summary How to use WebLauncher
 
 = Introduction =
 
