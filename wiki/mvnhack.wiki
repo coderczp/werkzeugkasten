@@ -33,7 +33,7 @@ java -jar mvnhack.jar [groupId] [artifactId] [version] flat=[on/off] dest=[path]
 
 = Examples =
 {{{
-java -jar mvnhack.jar commons-httpclient commons-httpclient 2.0.2
+java -jar mvnhack-0.0.1.jar commons-httpclient commons-httpclient 2.0.2
 }}}
 you get commons-httpclient-2.0.2.jar and commons-logging-1.0.3.jar into execution directory.
 
@@ -43,3 +43,8 @@ in this case,
   * *artifactId* is commons-httpclient
   * *version* is 2.0.2
   * you get two jars because commons-httpclient depends commons-logging.
+
+
+{{{
+java -jar mvnhack-0.0.1.jar org.slf4j slf4j-simple 1.4.3 flat=off dest=./foo
+}}}
