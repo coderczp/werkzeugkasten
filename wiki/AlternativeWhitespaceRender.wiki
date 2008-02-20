@@ -1,5 +1,4 @@
-
-
+#summary Alternative Whitespace Render is Text Editor enhancements.
 = Introduction =
 
 Alternative Whitespace Render is Text Editor enhancements.
