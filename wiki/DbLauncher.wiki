@@ -1,5 +1,4 @@
-#summary DbLauncher is Launching Plugin for H2.
-_ How to use DbLauncher _
+#summary How to use DbLauncher
 
 = Introduction =
 
