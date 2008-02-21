@@ -41,7 +41,7 @@ java -jar mvnhack.jar [groupId] [artifactId] [version] flat=[on/off] dest=[path]
     * comma separated maven2 remote/local additional repository URLs.
 
 = Implicit Repositories =
-  * if execution directory has directory that name is *repository*, use it.
+  * if execution directory has directory that name is *repository*, use as local repository.
   * if directory of *user.home* has m2/repository, use it.
   * [http://repo1.maven.org/maven2/ maven central repository]
 
