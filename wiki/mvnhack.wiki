@@ -38,7 +38,7 @@ java -jar mvnhack.jar [groupId] [artifactId] [version] flat=[on/off] dest=[path]
     * Proxy URL. auto detect HTTP or SOCKS proxy.
     * cf. [http://java.sun.com/j2se/1.5.0/docs/guide/net/properties.html Networking Properties]
   * repository
-    * comma separated maven2 remote/local repository URLs.
+    * comma separated maven2 remote/local additional repository URLs.
 
 = Implicit Repositories =
   * if execution directory has directory that name is *repository*, use it.
@@ -72,3 +72,9 @@ in this case,
   * *flat* is off
   * *destination* jars are under ./foo with repository structures.
   * you will be get two kind of artifacts, because slf4j-simple depends slf4j-api.
+
+
+{{{
+java -Dproxy=http://proxy.example.com:8080 -Drepository=http://public.planetmirror.com/pub/maven/, -jar mvnhack-0.0.1.jar commons-httpclient 2.0.2
+}}}
+this case, use HTTP proxy access to remote repositories and use addtional repository.
