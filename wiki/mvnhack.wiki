@@ -59,6 +59,9 @@ in this case,
   * you will be get two kind of artifacts, because commons-httpclient depends commons-logging.
 
 
+----
+
+
 {{{
 java -jar mvnhack-0.0.1.jar org.slf4j slf4j-simple 1.4.3 flat=off dest=./foo
 }}}
@@ -72,6 +75,9 @@ in this case,
   * *flat* is off
   * *destination* jars are under ./foo with repository structures.
   * you will be get two kind of artifacts, because slf4j-simple depends slf4j-api.
+
+
+----
 
 
 {{{
