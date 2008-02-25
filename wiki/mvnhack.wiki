@@ -9,7 +9,7 @@ mvnhack is executable jar with no dependency.
 mvnhack can download libraries from maven2 repositories without maven2.
 
 
-download mvnhack [http://werkzeugkasten.googlecode.com/files/mvnhack-0.0.1.jar here]
+download mvnhack [http://werkzeugkasten.googlecode.com/files/mvnhack-0.0.2.jar here]
 
 = Requirements =
 JRE 1.5 or more
@@ -47,7 +47,7 @@ java -jar mvnhack.jar [groupId] [artifactId] [version] flat=[on/off] dest=[path]
 
 = Examples =
 {{{
-java -jar mvnhack-0.0.1.jar commons-httpclient 2.0.2
+java -jar mvnhack-0.0.2.jar commons-httpclient 2.0.2
 }}}
 you get commons-httpclient-2.0.2.jar ,commons-logging-1.0.3.jar and some source.jars into execution directory.
 
@@ -63,7 +63,7 @@ in this case,
 
 
 {{{
-java -jar mvnhack-0.0.1.jar org.slf4j slf4j-simple 1.4.3 flat=off dest=./foo
+java -jar mvnhack-0.0.2.jar org.slf4j slf4j-simple 1.4.3 flat=off dest=./foo
 }}}
 you get slf4j-simple-1.4.3.jar ,slf4j-api-1.4.3.jar and some source.jars into execution directory.
 
@@ -81,6 +81,6 @@ in this case,
 
 
 {{{
-java -Dproxy=http://proxy.example.com:8080 -Drepository=http://public.planetmirror.com/pub/maven/, -jar mvnhack-0.0.1.jar commons-httpclient 2.0.2
+java -Dproxy=http://proxy.example.com:8080 -Drepository=http://public.planetmirror.com/pub/maven/, -jar mvnhack-0.0.2.jar commons-httpclient 2.0.2
 }}}
 this case, use HTTP proxy access to remote repositories and use addtional repository.
