@@ -1,7 +1,5 @@
 #summary How to install plugin in Eclipse.
 
-_How to install plugin in Eclipse._
-
 == Eclipse Update Site URL ==
 
 http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.update/
