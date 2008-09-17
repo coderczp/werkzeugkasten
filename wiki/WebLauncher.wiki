@@ -52,7 +52,7 @@ WebLauncher includes some of Web Container, so you needless to download servers.
     Select WebLauncher in the project properties page.  
       http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.docs/html/images/weblauncher/export_pref.png
     You may edit *War exclude pattern*. pattern is the *regular expression*.
-    Some of matched directories and files are exclued from war.
+    Some of matched directories and files are excluded from war.
 
 = Export Executable Web Archive =
   * Select [http://code.google.com/p/sdloader/ SDLoader] in the project properties page.
