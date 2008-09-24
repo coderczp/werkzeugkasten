@@ -57,6 +57,7 @@ WebLauncher includes some of Web Container, so you needless to download servers.
 = Export Executable Web Archive =
   * Select [http://code.google.com/p/sdloader/ SDLoader] in the project properties page.
   * Select *WebLauncher -> Export ExecutableWar* on context menu.
+      http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.docs/html/images/weblauncher/export_war_sdloader.png
   * WebLauncher export that project.
       http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.docs/html/images/weblauncher/generated.war.png
   * This war file contain [http://code.google.com/p/sdloader/ SDLoader] and some tricks.
