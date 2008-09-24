@@ -67,5 +67,6 @@ java -jar webproject.war
 }}}
   * Then boot [http://code.google.com/p/sdloader/ SDLoader] and deploy that war.
       http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.docs/html/images/weblauncher/execute.war.png
+  * And then system default browser execute and access to started server.
       http://werkzeugkasten.googlecode.com/svn/trunk/werkzeugkasten.docs/html/images/weblauncher/popuped.webapp.png
   
