@@ -7,8 +7,9 @@ DirBuildPathUpdater is modifier plugin for java projects classpath.
 
 = How to Use =
 
+== Add libraries from build path. ==
   * Select Folder in some view, and show context menu.
-    Select *Dir Build path Updater > Add libraries under this Dir to Build Path*.
+  Select *Dir Build path Updater > Add libraries under this Dir to Build Path*.
     http://werkzeugkasten.googlecode.com/svn/wiki/DirBuildPathUpdater/add.png
   * Then classpath is updated.
     http://werkzeugkasten.googlecode.com/svn/wiki/DirBuildPathUpdater/added.png
@@ -22,6 +23,7 @@ DirBuildPathUpdater is modifier plugin for java projects classpath.
   * Do it once, DirBuildPathUpdater keep watch the dir. 
   anyone modify that dir contents then update build path automatically.
 
+== Remove libraries from build path. ==
   * Select *Dir Build path Updater > Remove libraries under this Dir from Build Path*.
     http://werkzeugkasten.googlecode.com/svn/wiki/DirBuildPathUpdater/remove.png
   * Then classpath is updated.
