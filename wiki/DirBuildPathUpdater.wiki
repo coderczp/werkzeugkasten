@@ -9,4 +9,4 @@ DirBuildPathUpdater is modifier plugin for java projects classpath.
 
   * Select Folder in some view, and show context menu.
     Select *Dir Build path Updater > Add libraries under this Dir to Build Path*.
-    DirBuildPathUpdater/add.png
+    http://code.google.com/p/werkzeugkasten/wiki/DirBuildPathUpdater/add.png
