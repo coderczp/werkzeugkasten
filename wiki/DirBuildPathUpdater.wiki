@@ -15,7 +15,7 @@ DirBuildPathUpdater is modifier plugin for java projects classpath.
   * This update is diffrent from *Build Path > Add to Build Path*
     * .jar and .zip files other than contain -sources and -src files.
     * added libraries are attach source archives.
-      DirBuildPathUpdater find source archive automatically.
+    DirBuildPathUpdater find source archive automatically.
       http://werkzeugkasten.googlecode.com/svn/wiki/DirBuildPathUpdater/addedbuildpath.png
     * added libraries are export from project.
       http://werkzeugkasten.googlecode.com/svn/wiki/DirBuildPathUpdater/added_export.png
