@@ -1,11 +1,15 @@
 package werkzeugkasten.ameise;
 
 import java.io.File;
-import java.io.FilenameFilter;
-import java.util.ArrayList;
 import java.util.List;
 
 public abstract class BuildSupport {
+
+	protected FileSelector fileSelector = new FileSelector();
+
+	protected static FileSelector.Filter FILTER_DEFAULT_IGNORED = new FileSelector.ReverseFilter(
+			new FileSelector.PatternFilter(
+					"^(\\..*|CVS|SCCS|[Vv][Ss][Ss][Vv][Ee][Rr]\\.[Ss][Cc][Cc]|.*(\\.([Bb][Aa]?[Kk]|[Tt][Mm][Pp]|[Oo][Rr][Ii]?[Gg])|~))$"));
 
 	public void all() throws Exception {
 
@@ -22,47 +26,30 @@ public abstract class BuildSupport {
 
 	}
 
-	protected List<File> list(String root) {
-		List<File> list = new ArrayList<File>();
-		File f = new File(root);
-		if (f.exists()) {
-			add(f, list, NULL_FILTER);
-		}
-		return list;
+	/**
+	 * list files with default ignored filter
+	 * 
+	 * @param path
+	 *            listing directory or file
+	 * @return files
+	 */
+	protected List<File> list(String path) {
+		return fileSelector.list(path, FILTER_DEFAULT_IGNORED);
 	}
 
-	protected void add(File root, List<File> list, FilenameFilter filter) {
-		if (root == null) {
-			return;
-		}
-		if (root.isDirectory()) {
-			String[] ary = root.list();
-			if (ary != null) {
-				for (String s : ary) {
-					add(new File(s), list, filter);
-				}
-			}
-
-		} else if (root.exists()) {
-			if (filter.accept(root.getParentFile(), root.getName())) {
-				list.add(root);
-			}
-		}
+	/**
+	 * list files with filter
+	 * 
+	 * @param path
+	 *            listing directory or file
+	 * @param filter
+	 * @return files
+	 */
+	protected List<File> list(String path, FileSelector.Filter filter) {
+		return this.fileSelector.list(path, filter);
 	}
 
-	protected List<File> list(String root, FilenameFilter filter) {
-		return null;
+	protected void zip(String dest, String root) {
+
 	}
-
-	public static final FilenameFilter NULL_FILTER = new FilenameFilter() {
-		@Override
-		public boolean accept(File dir, String name) {
-			return true;
-		}
-	};
-
-	protected FilenameFilter nameFilter(String pattern) {
-		return new PatternFilter(pattern);
-	}
-
 }
