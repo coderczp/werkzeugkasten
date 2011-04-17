@@ -91,3 +91,26 @@ in this case,
 java -Dproxy=http://proxy.example.com:8080 -Drepository=http://public.planetmirror.com/pub/maven/, -jar mvnhack-0.0.2.jar commons-httpclient 2.0.2
 }}}
 this case, use HTTP proxy access to remote repositories and use addtional repository.
+
+----
+dependencies.yml example.
+
+{{{
+flatten : true
+destination : ./lib
+proxy : http://proxy.example.com:8080
+http.nonProxyHosts : localhost
+
+repositories :
+  - http://repository.codehaus.org/
+  - https://repository.jboss.org/nexus/content/repositories/releases/
+
+dependencies :
+  - org.yaml snakeyaml 1.8
+}}}
+this case, override 4 parameters.
+ * flatten override flat.
+ * destination override dest.
+ * proxy and http.nonProxyHosts override JVM environment
+and use 2 external repositories.
+and define dependency. dependencies are whitespace separated string sequence contains 2 or 3 value like base usage.
