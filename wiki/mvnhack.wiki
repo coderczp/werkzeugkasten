@@ -113,5 +113,9 @@ this case, override 4 parameters.
  * destination override dest.
  * proxy and http.nonProxyHosts override JVM environment
 and use 2 external repositories.
+
 and define dependency. 
+
 dependencies are whitespace separated string sequence contains 2 or 3 value like base usage.
+
+you want to know any other yaml syntax. read [http://code.google.com/p/snakeyaml/wiki/Documentation#YAML_syntax YAML_syntax]
